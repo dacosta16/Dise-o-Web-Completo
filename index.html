@@ -11,7 +11,11 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+    <!--Google Fonts-->
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <meta name="theme-color" content="#fafafa">
@@ -29,24 +33,215 @@
         <div class="hero">
             <div class="contenido-header">
                 <nav class="redes-sociales">
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Pinterest</a>
-                    <a href="#">Youtube</a>
-                    <a href="#">Instagram</a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </nav>
 
                 <div class="informacion-evento">
-                    <p class="fecha">10-12 Dic</p>
-                    <p class="ciudad">Tegucigalpa MDC</p>
+                    <div class="clearfix">
+                        <p class="fecha"><i class="fas fa-calendar-alt"></i> 10-12 Dic</p>
+                        <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Tegucigalpa MDC</p>
+                    </div>
+                    <h1 class="nombre-sitio">GdlWebCamp</h1>
+                    <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
+
                 </div>
                 <!-- informacion evento -->
-                <h1 class="nombre-sitio">GDLWebCamp</h1>
-                <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
             </div>
         </div>
     </header>
 
+    <div class="barra clearfix">
+        <div class="contenedor">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo navbar">
+            </div>
+            <div class="menu-movil">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navegacion-principal">
+                <a href="#">Conferencia</a>
+                <a href="#">Calendario</a>
+                <a href="#">Invitados</a>
+                <a href="#">Reservaciones</a>
+            </nav>
+        </div>
+    </div>
+    <!-- Cierre de la Barra -->
+
+    <section class="seccion contenedor">
+        <h2>La mejor conferencia de diseño web en español</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente deleniti reiciendis veritatis! Perspiciatis nobis quidem dignissimos dolorem eligendi rerum nihil ea. Voluptate facere in voluptatibus eligendi veniam minima harum perferendis.</p>
+    </section>
+
+    <section class="programa">
+        <div class="contenedor-video">
+            <video autoplay loop poster="/img/bg-talleres.jpg">
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video/video.webm" type="video/webm">
+                <source src="video/video.ogv" type="video/ogv">
+            </video>
+        </div>
+        <!--Contenedor Video-->
+
+        <div class="contenido-programa">
+            <div class="contenedor">
+                <div class="programa-evento">
+                    <h2>Programa del Evento</h2>
+                    <nav class="menu-programa">
+                        <a href="#talleres"><i class="fas fa-code"></i> Talleres</a>
+                        <a href="#conferencias"><i class="fas fa-comment"></i> Conferencias</a>
+                        <a href="#seminarios"><i class="fas fa-university"></i></i> Seminarios</a>
+                    </nav>
+
+                    <div id="talleres" class="info-curso ocultar clearfix">
+                        <div class="detalle-evento">
+                            <h3>HTML5, CSS3 y JavaScript</h3>
+                            <p><i class="fas fa-clock"></i> 14:00 hrs</p>
+                            <p><i class="fas fa-calendar-alt"></i> 09 de Dic</p>
+                            <p><i class="fas fa-user"></i> Douglas Ariel Acosta</p>
+                        </div>
+
+                        <div class="detalle-evento">
+                            <h3>Responsive Web Design</h3>
+                            <p><i class="fas fa-clock"></i> 17:00 hrs</p>
+                            <p><i class="fas fa-calendar-alt"></i> 09 de Dic</p>
+                            <p><i class="fas fa-user"></i> Douglas Ariel Acosta</p>
+                        </div>
+                        <a href="#" class="boton float-right">Ver Todos</a>
+                    </div>
+                    <!--ID Talleres-->
+                </div>
+            </div>
+            <!--Contenedor-->
+        </div>
+        <!--Contenido Programa-->
+    </section>
+
+    <section class="invitado contenedor seccion">
+
+        <h2>Nuestros Invitados</h2>
+
+        <ul class="lista-invitados clearfix">
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado1.jpg" alt="Imagen Invitado">
+                    <p>Rafael Bautista</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado2.jpg" alt="Imagen Invitado">
+                    <p>Shari Herrera</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado3.jpg" alt="Imagen Invitado">
+                    <p>Gregorio Sanchez</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado4.jpg" alt="Imagen Invitado">
+                    <p>Susana Rivera</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado5.jpg" alt="Imagen Invitado">
+                    <p>Harold Garcia</p>
+                </div>
+            </li>
+
+            <li>
+                <div class="invitado">
+                    <img src="img/invitado6.jpg" alt="Imagen Invitado">
+                    <p>Susan Sanchez</p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!--Seccion de Invitados-->
+
+    <div class="contador paralax">
+        <div class="contenedor">
+            <ul class="resumen-evento clearfix">
+                <li>
+                    <p class="numero">6</p> Invitados
+                </li>
+                <li>
+                    <p class="numero">15</p> Talleres
+                </li>
+                <li>
+                    <p class="numero">3</p> Dias
+                </li>
+                <li>
+                    <p class="numero">9</p> Invitados
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Fin Contador-->
+
+    <section class="precios seccion">
+        <h2>Precios</h2>
+
+        <div class="contenedor">
+            <ul class="lista-precios clearfix">
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Pase por Dia</h3>
+                        <p class="numero">30$</p>
+                        <ul>
+                            <li>Bocadillos Gratis</li>
+                            <li>Todas las Conferencias</li>
+                            <li>Todos los Talleres</li>
+                        </ul>
+                        <a href="#" class="boton hollow">Comprar</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Todos los Dias</h3>
+                        <p class="numero">50$</p>
+                        <ul>
+                            <li>Bocadillos Gratis</li>
+                            <li>Todas las Conferencias</li>
+                            <li>Todos los Talleres</li>
+                        </ul>
+                        <a href="#" class="boton">Comprar</a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="tabla-precio">
+                        <h3>Pase por 2 dias</h3>
+                        <p class="numero">45$</p>
+                        <ul>
+                            <li>Bocadillos Gratis</li>
+                            <li>Todas las Conferencias</li>
+                            <li>Todos los Talleres</li>
+                        </ul>
+                        <a href="#" class="boton hollow">Comprar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
 
     <script src="js/vendor/modernizr-3.8.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
